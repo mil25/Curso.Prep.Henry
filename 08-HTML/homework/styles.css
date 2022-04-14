@@ -1,6 +1,7 @@
 
-h1{
-    color:blue
+h1,h3,h4,span,#spanId{
+    color:rgb(255, 203, 248);
+    text-align: center;
 }
 img{
     width:400px ;
@@ -8,11 +9,22 @@ img{
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: rgb(175, 228, 126);
+    background-color: rgb(136, 105, 209);
     padding: 50px;
     border: 10px solid;color: black;
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+body{
+    background:url("https://www.xtrafondos.com/descargar.php?id=3063&resolucion=1920x1080");
+}
+a{
+    color:cornsilk
+}
+#thirdDiv,.divClass,#spanId{
+    margin-left: auto;
+    margin-right: auto;
+
 }
